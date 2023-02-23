@@ -30,7 +30,7 @@ main.text{
     border-bottom-left-radius: 0.5rem;
     border-top-left-radius: 0.5rem;
 }
-main.image{
+section.image{
     grid-area: image;
     width: 540px;
     height: 446px;
@@ -86,7 +86,7 @@ h2{
         'image'
         'text';
     }
-    main.image{
+    section.image{
         width: 375px;
         height: 285px;
         background-size: cover;
