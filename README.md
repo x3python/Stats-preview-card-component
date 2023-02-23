@@ -12,8 +12,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-nft-preview-card-component-NqblXe9fjO
-- Live Site URL: https://x3python.github.io/NFT-preview-card-component/
+- Solution URL: https://www.frontendmentor.io/solutions/frontend-mentor-stats-preview-card-component-JxEn0u1_zp
+- Live Site URL: https://x3python.github.io/Stats-preview-card-component/
 
 ### Built with
 
