@@ -52,6 +52,7 @@ h2{
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 4rem;
+    padding-right: 5rem;
 }
 .sub-text{
     display: grid;
@@ -78,9 +79,52 @@ h2{
 }
 @media(max-width:800px){
     body{
+        margin: 50px;
+        height: 100%;
         display: grid;
         grid-template-areas:
         'image'
         'text';
+    }
+    main.image{
+        width: 375px;
+        height: 285px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    main.text{
+        text-align: center;
+        width: 375px;
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 0.5rem;
+        padding: 2rem;
+    }
+    .sub-text{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    h1{
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        padding-bottom: 1rem;
+    }
+    h2{
+        font-family: 'Inter', sans-serif;
+        line-height: 1.5rem;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 3rem;
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }.item{
+        padding-bottom: 2rem;
     }
 }
