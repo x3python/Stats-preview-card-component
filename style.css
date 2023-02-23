@@ -30,7 +30,6 @@ main.card{
     font-family: 'Inter', sans-serif;
     background-color: hsl(244, 38%, 16%);
     border-radius: 0.5rem;
-    height: fit-content;
 }
 span.txt-color{
     color: hsl(277, 64%, 61%, 0.5);
@@ -63,10 +62,10 @@ img.header{
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .img{
-    background-color: hsl(277, 64%, 61%, 0.6);
+    background-color: hsl(277, 64%, 61%);
     overflow: hidden;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -76,4 +75,27 @@ img.header{
     justify-content: center;
     justify-content: space-between;
     width: 350px;
+}
+
+@media (max-width:800px){
+    body{
+        justify-content: center;
+    }
+    main.card{
+        grid-template-columns: 1fr;
+        width: 375px;
+        margin-top: 50px;
+    }
+    .text-area{
+        text-align: center;
+        padding: 4rem;
+        width: 375px;
+    }
+    p.text{
+        text-align: center;
+    }
+    .adding{
+        display: grid;
+        text-align: center;
+    }
 }
